@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h2 class="logo">MyCompany</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Our Profile</a></li>
+            <li><a href="#message">Message Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1 id="welcome">Hi, Welcome To Website</h1>
+        <img src="/gambar/gambar1.jpg" alt="Banner" class="banner">
+    </section>
+
+    <!-- Our Headquarter -->
+    <section class="hq">
+        <h2>Our Headquarter</h2>
+        <div class="hq-container">
+            <div class="circle">
+                <p>Jakarta</p>
+            </div>
+            <div class="circle">
+                <p>Bandung</p>
+            </div>
+            <div class="circle">
+                <p>Surabaya</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Message Us -->
+    <section class="message" id="message">
+        <h2>Message Us</h2>
+        <div class="form-container">
+            <form id="messageForm">
+                <input type="text" id="name" placeholder="Name">
+                <input type="email" id="email" placeholder="Email">
+                <input type="text" id="phone" placeholder="Phone Number">
+                <textarea id="messageText" placeholder="Message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+
+            <div class="result" id="result">
+                <h3>Current Form Data:</h3>
+                <p id="resultData">Belum ada data</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
